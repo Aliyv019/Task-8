@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(14, 24, 62);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 0px;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-top: 20px;
+}
+h1{
+    color: rgb(14, 24, 62);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.bars{
+    margin-bottom: 25px;
+}
+.bars h2{
+    color: rgb(14, 24, 62);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bars p{
+    color: rgb(14, 24, 62);
+font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bar_full{
+    width: 300px;
+    height: 15px;
+    border: 1px solid rgb(195, 205, 233);
+    border-radius: 10px;    
+    background: rgb(232, 235, 244);
+    margin-right: 10px;
+}
+.bar_perc{
+    display: flex;
+    align-items: center;
+}
+#bar_math{
+    border: 1px solid rgb(195, 205, 233);
+    border-radius: 10px;
+    background: rgb(252, 152, 96);
+    width: 52%;
+    height: 100%;
+}
+#bar_chem{
+    border: 1px solid rgb(195, 205, 233);
+    border-radius: 10px;
+    background: rgb(96, 140, 252);
+    width: 76%;
+    height: 100%;
+}
+#bar_scien{
+    border: 1px solid rgb(195, 205, 233);
+    border-radius: 10px;
+    background: rgb(252, 96, 134);
+    width: 21%;
+    height: 100%;
+}
